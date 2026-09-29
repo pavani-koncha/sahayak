@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+backend/venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.production
+*.env
+
+# SQLite Database
+*.db
+*.sqlite3
+sahayak.db
+backend/sahayak.db
+
+# Build Artifacts
+dist/
+frontend/dist/
+build/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Editor & OS Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
